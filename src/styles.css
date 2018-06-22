@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+}
+p {
+  line-height: 1.6;
+  margin-top: 15px;
+}
+.button {
+  width: 200px;
+  background: #666666;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
