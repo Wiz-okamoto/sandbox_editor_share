@@ -11,31 +11,18 @@ import Piyo from "./components/Piyo";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      piyo: [
-        {
-          id: 1,
-          name: "piyo太郎",
-          url: "https://google.com"
-        },
-        {
-          id: 2,
-          name: "piyo子",
-          url: "https://yahoo.co.jp"
-        }
-      ]
-    };
     this.onClickHandler = this.onClickHandler.bind(this);
   }
   onClickHandler(e) {
     alert("buttonClick!");
   }
+
   render() {
     return (
       <div className="App">
         <Hoge text="hogehoge" />
         <Fuga onClickHandler={this.onClickHandler} />
-        <Piyo piyoData={this.state.piyo} />
+        <Piyo />
       </div>
     );
   }
