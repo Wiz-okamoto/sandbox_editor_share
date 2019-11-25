@@ -1,7 +1,7 @@
 {
   "name": "react-study",
   "version": "1.0.0",
-  "description": "reactのコード共有するとこ",
+  "description": "reactのコード共有",
   "keywords": ["react"],
   "main": "src/index.js",
   "dependencies": {
